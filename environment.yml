@@ -1,0 +1,19 @@
+name: deeprl
+channels:
+  - conda-forge
+  - default
+  - pytorch
+
+dependencies:
+  - python=3.8
+  - ipykernel
+  - cudatoolkit=11.3
+  - pytorch
+  - torchvision
+  - ffmpeg
+  - pip
+    - stable-baselines3[extra]
+    - huggingface_sb3
+    - ale-py==0.7.4
+    - gym[box2d]
+    - pyvirtualdisplay
